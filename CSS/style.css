@@ -115,3 +115,111 @@ hr {
     padding: 2px;
     margin-left: 15px;
 }
+
+@media only screen and (max-width:650px) {
+    .container {
+        background-color: azure;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+        position: relative;
+        left: -30px;
+    }
+    .player {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 26px;
+    }
+    .blog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkcyan;
+        border-radius: 15px;
+        width: 300px;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .courses {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .course {
+        margin-bottom: 40px;
+        background-color: burlywood;
+        border-radius: 15px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width:651px) and( max-width: 950px) {
+    .container {
+        background-color: azure;
+        width: 90%;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .players {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 25px;
+        position: relative;
+        margin: 0 auto;
+        margin: 10px;
+    }
+    .player {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 20px;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 26px;
+    }
+    .blog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkcyan;
+        border-radius: 15px;
+        width: 280px;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .blog .thumbnails img {
+        width: 150px;
+        height: 150px;
+        margin-right: 16px;
+    }
+    .courses {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .course {
+        margin-bottom: 40px;
+        background-color: burlywood;
+        border-radius: 15px;
+        padding: 5px;
+    }
+}
