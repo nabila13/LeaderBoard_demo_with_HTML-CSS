@@ -7,7 +7,7 @@ body {
 
 .navbar {
     background-color: lightseagreen;
-    height: 70px;
+    height: 60px;
     position: relative;
     top: 0;
     margin-bottom: 10px;
@@ -15,11 +15,16 @@ body {
 
 .container-nav {
     display: flex;
-    width: 870px;
-    height: 70px;
+    width: 890px;
+    height: 60px;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
+}
+
+.container-nav .logo {
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .menu-item ul {
@@ -33,6 +38,7 @@ body {
 li {
     padding: 0 10px;
     list-style: none;
+    font-size: 20px;
 }
 
 li a {
