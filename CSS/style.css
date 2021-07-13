@@ -2,6 +2,41 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: cadetblue;
+    margin: 0;
+}
+
+.navbar {
+    background-color: lightseagreen;
+    height: 70px;
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+}
+
+.container-nav {
+    display: flex;
+    width: 870px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu-item ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: -30px;
+}
+
+li {
+    padding: 0 10px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
 }
 
 main {
@@ -34,7 +69,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 29px;
     position: relative;
-    left: -45px;
+    left: -60px;
 }
 
 .player {
@@ -83,6 +118,12 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: -40px;
+}
+
+.course {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .course .course-image img {
